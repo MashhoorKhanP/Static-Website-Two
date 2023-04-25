@@ -1,0 +1,689 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gill+Sans:wght@600&display=swap');
+
+body{
+
+    margin: 0%;
+    
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.header-div{
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    width: 100%;
+    position: fixed;
+    height: 150px;
+    background: black;
+
+}
+
+
+.topsection-div{
+
+
+    display:flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    margin-left: 75px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 5px;
+    width: 100%;
+    height: 48%;
+}
+
+.headerlogo-div{
+
+    margin-top: 15px;
+    cursor: pointer;
+    
+    
+}
+
+.logo-img{
+
+    width: 270px;
+    cursor: pointer;
+}
+
+.toprightsection-div{
+
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+    padding-left: 430px;
+}
+
+.searchbox{
+
+    
+    background:url(https://www.mgmotor.co.in/content/dam/mgmotor/icons/input-box-border.svg);
+    background-size: contain;
+    border: none;
+    width: 160px;
+    height: 25px;
+    padding-left: 8px;
+    color: white;
+}
+
+.searchbox::placeholder{
+
+    font-size: 10.5px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.search-img{
+
+    width:15px;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    margin-left: -22px;
+    margin-top: -3px;
+    
+}
+
+.tollfreenum-text{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.icons-img{
+
+    width: 14px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+
+.bottomrightsection-div{
+
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+   
+    height: 20px;
+    align-items: center;
+    padding-left: 85px;
+    padding-top:7px
+}
+.home-text{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    color: white;
+}
+
+.homerow-text{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.5px;
+    color: white;
+    margin-left: 27.5px;
+}
+
+.dropdown-image{
+
+    width: 12px;
+    height: 8px;
+    cursor: pointer;
+    margin-top: 1px;
+    vertical-align: middle;
+    margin-left:5px
+    
+}
+.bottomsection-div{
+
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    align-items: center;
+    padding-top: 118px;
+    padding-left: 90px;
+    width: 150px;
+    height: 31px;
+}
+
+
+.backicon-image{
+
+    width:30px;
+    height: 30px;
+
+}
+
+.bottomsection-text{
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-left: 18px;
+    
+}
+
+.booktestdrive-div{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    justify-content: center;
+    padding-top: 190px;
+    
+
+}
+
+.booktestdrive-text{
+
+    font-family: 'Gill Sans SemiBold', sans-serif;
+    color: #cf2230;
+    font-size: 32px;
+}
+
+.mandatory-div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.mandatory-text{
+
+    margin-top: 0;
+    margin-right: 250px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(94, 94, 94);
+}
+
+.inputone-div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.inputone-box{
+
+    width: 374px;
+    height: 50px;
+    margin-left: -1px;
+    outline: 0;
+    border: 1px solid gray;
+    
+}
+
+.inputone-box::placeholder{
+
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+}
+
+.inputtwo-div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.inputmobile-box{
+
+    width: 374px;
+    height: 50px;
+    margin-left: -1px;
+    outline: 0;
+    border: 1px solid gray;
+    
+}
+
+.inputmobile-box::placeholder{
+
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+}
+
+.inputotp-box{
+
+    width: 284px;
+    height: 50px;
+    margin-left: -1px;
+    outline: 0;
+    border: 1px solid gray;
+}
+
+.inputotp-box::placeholder{
+
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+}
+
+.sendotp-box{
+
+    width: 90px; ;
+    height: 53px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputthree-div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.inputemail-box{
+
+    width: 374px;
+    height: 50px;
+    margin-left: -1px;
+    outline: 0;
+    border: 1px solid gray;
+    
+}
+
+.inputemail-box::placeholder{
+
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+}
+
+.inputselect-box{
+
+    width: 379px;
+    height: 53.5px;
+    margin-left: -1px;
+    outline: 0;
+    border: 1px solid gray;
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+   
+}
+
+.selectmodel-text{
+
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+}
+
+.inputthree-div select {
+
+    background: white;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: url("https://www.mgmotor.co.in/content/dam/mgmotor/icons/btn-down-arrow-red.svg");
+    background-position-x: 95%;
+    background-size: 16px 16px;
+    background-position-y: 22px;
+    cursor: pointer;
+
+}
+
+.inputfour-div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 254px;
+    padding-top: 20px;
+}
+
+.inputfour-div select {
+
+    background: white;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: url("https://www.mgmotor.co.in/content/dam/mgmotor/icons/btn-down-arrow-red.svg");
+    background-position-x: 95%;
+    background-size: 16px 16px;
+    background-position-y: 22px;
+    cursor: pointer;
+
+}
+
+.whendoyouplan-box{
+
+    width: 379px;
+    height: 52.8px;
+    margin-left: -1px;
+    outline: 0;
+    border: 1px solid gray;
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+}
+
+.locationoftest-div{
+
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    padding-left: 254px;
+}
+
+.locationoftest-text{
+
+    font-size: 25px;
+    font-family: 'Gill Sans SemiBold', sans-serif;
+}
+
+.inputdate-box{
+
+    width: 352px;
+    height: 50px;
+    margin-left: -1px;
+    outline: 0;
+    border: 1px solid gray;
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #545554;
+    padding-left: 25px;
+    background: white;
+    background-repeat: no-repeat;
+    background-image: url("https://www.mgmotor.co.in/content/dam/mgmotor/icons/icon-calendar.png");
+    background-position-x: 95%;
+    background-size: 20px 20px;
+    background-position-y: 22px;
+    cursor: pointer;
+    
+    
+}
+
+
+.checkcaptcha-div{
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    padding-top: 35px;
+}
+
+
+.checkbox-box{
+
+    
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #707070;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none;
+    appearance:none;
+    margin-top: 1px;
+}
+
+.privacy-text{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.recaptcha-div{
+
+    padding: 0 0 0 206px;
+}
+.g-recaptcha{
+
+    height: 74px;
+    width: 300px;
+}
+
+.resetsend-div{
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 254px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+.reset-button{
+
+    width: 378px;
+    height: 50px;
+    outline: 0;
+    border: 1px solid gray;
+    background: white;
+    background-repeat: no-repeat;
+    background-image: url("	https://www.mgmotor.co.in/content/dam/mgmotor/icons/icon-reset.svg");
+    background-position-x: 7%;
+    background-size: 22px 22px;
+    background-position-y: 16px;
+    cursor: pointer;
+    
+    
+}
+
+.reset-button::placeholder{
+
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: #000000;
+    padding-left: 60px;
+    vertical-align: middle;
+    
+}
+
+.send-button{
+
+    width: 378px;
+    height: 50px;
+    outline: 0;
+    border: 1px solid gray;
+    background: black;
+    margin-left: -1px;
+    background-repeat: no-repeat;
+    background-image: url("	https://www.mgmotor.co.in/content/dam/mgmotor/icons/btn-arrow-submit.svg");
+    background-position-x: 7%;
+    background-size: 22px 22px;
+    background-position-y: 16px;
+    cursor: pointer;
+    
+    
+}
+
+.send-button::placeholder{
+
+    font-family: "RobotoBold",sans-serif;
+    font-weight: 600;
+    font-size: .6875rem;
+    color: white;
+    padding-left: 60px;
+    vertical-align: middle;
+    
+}
+
+.footer-div{
+
+    background: black;
+    width: 100%;
+    padding-bottom:25px ;
+}
+
+
+.footertop-div{
+
+ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    padding-top: 45px;
+   
+    
+}
+
+.signup-div{
+
+    display: inline-block;
+    padding-top: 5px;
+    margin-left: 72px;
+}
+
+.signup-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-left: 4px;
+
+}
+
+.privacytwo-text{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.emailbox-div{
+
+    padding-left: 50px;
+    width: 315px;
+
+
+}
+
+.email-box{
+
+    background:url(https://www.mgmotor.co.in/content/dam/mgmotor/icons/input-box-border.svg);
+    background-size: contain;
+    border: none;
+    width: 290px;
+    height: 40px;
+    padding-left: 8px;
+    color: white;
+}
+
+.email-box::placeholder{
+
+    font-size: 10.5px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.arrow-img{
+
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: -24px;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+
+
+    
+}
+
+.socialicons-div{
+
+    width: 641px;
+}
+
+.socialicon-img{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: 46px;
+}
+
+
+.socialiconone-img{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: 215px;
+}
+
+.footerbottom-div{
+
+    padding: 25px 10px 0 72px;
+}
+
+table th, td {
+    border: 1px solid black;
+    text-align: start;
+    width: 150px;
+
+}
+
+.servicesmain-text{
+
+    font-family: "RobotoMedium",sans-serif;
+    font-weight: 600;
+    font-size: .75rem;
+    color: #fff;
+}
+
+.servicessub-text{
+
+    font-family: "RobotoRegular",sans-serif;
+    font-size: .65rem;
+    color: #757575;
+}
+
+.allrights-div{
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 72px;
+    margin-top: 60px;
+
+}
+
+.allrights-text{
+
+    font-family: "RobotoRegular",sans-serif;
+    font-size: .65rem;
+    color: #757575;
+}
+
