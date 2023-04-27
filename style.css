@@ -23,6 +23,7 @@ a{
     position: fixed;
     height: 150px;
     background: black;
+    z-index: 3;
 
 }
 
